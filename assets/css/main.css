@@ -705,7 +705,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Pricing Section
+# Gallery Section
 --------------------------------------------------------------*/
 .gallery {
   margin-top: 40px;
@@ -939,6 +939,34 @@ h6 {
   font-style: italic;
   margin: 0 0 15px 0 0 0;
   padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Gallery Video Section
+--------------------------------------------------------------*/
+.vid-gallery {
+  margin-top: 40px;
+}
+
+.vid-gallery .vid-gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.vid-gallery .vid-gallery-item .embed-responsive {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  border-radius: 10px;
+}
+
+.vid-gallery .vid-gallery-item .embed-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*--------------------------------------------------------------
